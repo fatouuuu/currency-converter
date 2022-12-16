@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; */
+  padding: 0 10px;
+  background: #602d6dbb;
+}
+::selection{
+  color: #fff;
+  background: #602d6dbb;
+}
+.wrapper{
+  display: center;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  padding: 20px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.wrapper header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.wrapper form{
+  margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+form p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+form input{
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+form input:focus{
+  padding: 0 14px;
+  border: 2px solid #602d6dbb;
+}
+form .drop-list{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.drop-list .select-box{
+  display: flex;
+  width: 115px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+.select-box img{
+  max-width: 21px;
+}
+.select-box select{
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+.drop-list .icon{
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+form .exchange-rate{
+  font-size: 17px;
+  margin: 20px 0 30px;
+}
+form button{
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: #602d6dbb;
+  transition: 0.3s ease;
+}
+form button:hover{
+  background: #4534fe;
+}
+#submit{
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: #602d6dbb;
+  transition: 0.3s ease;
+}
+/* colour change on hover  */
+ #submit:hover{
+  background: rgb(142, 142, 197)
+} 
+
+/* styling for the navbar, login and sign up forms goes here */
+/* Style the navbar */
+#app{
+  width: 100%;
+  height: 60px;
+  background: #602d6dbb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+#app ul {
+  display: flex;
+  list-style: none;
+}
+#app ul li {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#app ul li:hover {
+  color: #675AFE;
+} 
+
+/* Style the forms */
+ #login_signup_forms {
+  display: left;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#login_signup_forms form {
+  width: 300px;
+  margin-bottom: 20px;
+}
+#login_signup_forms h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#login_signup_forms p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#login_signup_forms label,
+#login_signup_forms input,
+#login_signup_forms button {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+#login_signup_forms label {
+  display: block;
+  margin-bottom: 5px;
+}
+#login_signup_forms input {
+  height: 40px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+#login_signup_forms input:focus {
+  padding: 0 14px;
+  border: 2px solid #602d6dbb;
+}
+#login_signup_forms button {
+  height: 45px;
+  color: #fff;
+  background: #602d6dbb;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.footer form{
+  margin: 40px 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row>[class*=col] {
+    padding-left: 10px;
+    padding-right: 10px
+}
+.col-6, {
+    width: 100%;
+    max-width: 100%;
+}
+
+.col, [class*=col-] {
+    position: relative;
+    min-height: 1px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-6 {
+    flex: auto;
+}
+
+/* form {
+  width: 120%;
+  margin: 0 auto;
+}
+
+#email, #username, #password{ */
+  /* In order to define widths */
+  /* display: inline-block;
+}
+
+#form{
+  width: 30%; */
+  /* Positions the label text beside the input */
+  /* text-align: right;
+}
+
+#form, #username, #password, #email {
+  width: 30%; */
+  /* Large margin-right to force the next element to the new-line
+           and margin-left to create a gutter between the label and input */
+  /* margin: 0 30% 0 4%;
+} */
+
+
+/* Only the submit button is matched by this selector,
+       but to be sure you could use an id or class for that button */
+
+/* #username, #password, #email {
+  float: right;
+} */

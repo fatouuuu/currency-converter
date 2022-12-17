@@ -1,7 +1,7 @@
 
 # Currency Converter
 
-Welcome to the Currency Converter repository! This project is for Moringa School's Phase 1 This is a simple single-page application that allows you to convert between different currencies using current exchange rates.
+Welcome to the Currency Converter repository! This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to convert between different currencies using current exchange rates.
 
 ## Requirements
 

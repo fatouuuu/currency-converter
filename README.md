@@ -1,7 +1,12 @@
 
 # Currency Converter
 
-Welcome to the Currency Converter repository! This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to convert between different currencies using current exchange rates.
+This repository is for Moringa School's Phase 1 project. This is a simple single-page application that allows you to convert between different currencies using current exchange rates.
+
+Link to the live site below: 
+
+[LIVE](https://currency-conv-ph1.netlify.app/)
+
 
 ## Requirements
 
